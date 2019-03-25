@@ -1,0 +1,47 @@
+<h4>＜ユーザ： <%= @nickname %>　のページ＞</h4>
+
+<div><%= image_tag  current_user.image, :size =>'70x90' %></div>
+
+
+	<hr>
+
+<!-- ------------------	メニュー	------------------ -->
+<table>
+  <tr>
+    <td><%= link_to '書き込む', new_route_path %></td>
+    <td>　</td>
+    <td><%= link_to 'トップに戻る', root_path %></td>
+    <td>　</td>
+<% unless user_signed_in? %>
+    <td><%= link_to 'サインアップ', new_user_session_path %></td>
+    <td>　</td>
+<% end %>
+
+<% if user_signed_in? %>
+	<td>ログイン中</td>
+	<% else %>
+    <td><%= link_to 'ログイン', user_session_path %></td>
+<% end %>
+
+    <td>　</td>
+    <td><%= link_to 'ログアウト', destroy_user_session_path, method: :delete %></td>
+  </tr>
+</table>
+
+<hr>
+
+<!-- ------------------	メニュー end	------------------ -->
+
+
+
+<% @routes.each do |route| %>
+	<p>タイトル：<%= route.title %></p>
+	<p>地　　域：<%= route.location %></p>
+	<p>ルート地図：<%= route.map %></p>
+	<p>距　　離：<%= route.distance %> km</p>
+	<hr>
+
+<% end %>
+
+<p><%= link_to 'トップに戻る', root_path %></p>
+

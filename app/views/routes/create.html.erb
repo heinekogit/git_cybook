@@ -1,0 +1,12 @@
+<%= form_for(@routes, :url => {:action => 'create'}) do |f| %>
+    <div class="field">
+    <%= f.label :title %>
+  <p><%= f.text_field :title %></p>
+    <%= f.label :location %>
+  <p><%= f.text_area :location, size: "60x12" %></p>
+    <%= f.label :map %>
+  <p><%= f.text_area :map, size: "60x12" %></p>
+    <%= f.label :distance %>
+  <p><%= f.text_area :distance, size: "60x12" %></p>
+ <%= f.submit "書き込む" %>
+<% end %>
