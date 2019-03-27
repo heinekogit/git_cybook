@@ -39,6 +39,11 @@
 	<p>地　　域：<%= route.location %></p>
 	<p>ルート地図：<%= route.map %></p>
 	<p>距　　離：<%= route.distance %> km</p>
+	<tr>
+		<td><%= link_to "編集", "/routes/#{route.id}}/edit" %></td>
+    	<td>　</td>
+		<td><%= link_to "削除", "/routes/#{route.id}}", method: :delete %></td>
+	</tr>
 	<hr>
 
 <% end %>
