@@ -1,5 +1,5 @@
 current directory: /Users/dev_tomo/wsp_ruby/cybook/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.2/ext/mysql2
-/Users/dev_tomo/.rbenv/versions/2.6.1/bin/ruby -I /Users/dev_tomo/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190327-70499-nkss6j.rb extconf.rb --with-ldflags\=-L/usr/local/opt/openssl/lib\ --with-cppflags\=-I/usr/local/opt/openssl/include
+/Users/dev_tomo/.rbenv/versions/2.6.1/bin/ruby -I /Users/dev_tomo/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190327-76732-1ont2hg.rb extconf.rb --with-ldflags\=-L/usr/local/opt/openssl/lib\ --with-cppflags\=-I/usr/local/opt/openssl/include
 checking for rb_absint_size()... *** extconf.rb failed ***
 Could not create Makefile due to some reason, probably lack of necessary
 libraries and/or headers.  Check the mkmf.log file for more details.  You may
