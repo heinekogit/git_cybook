@@ -1,0 +1,15 @@
+current directory: /Users/dev_tomo/wsp_ruby/cybook/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.2/ext/bootsnap
+/Users/dev_tomo/.rbenv/versions/2.6.1/bin/ruby -I /Users/dev_tomo/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190327-70499-1qgeviw.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dev_tomo/wsp_ruby/cybook/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.2/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/dev_tomo/wsp_ruby/cybook/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.2/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/dev_tomo/wsp_ruby/cybook/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.2/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190327-70499-8fxgt1/bootsnap
