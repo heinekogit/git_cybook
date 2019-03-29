@@ -1,5 +1,5 @@
 current directory: /Users/dev_tomo/wsp_ruby/cybook/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.2/ext/mysql2
-/Users/dev_tomo/.rbenv/versions/2.6.1/bin/ruby -I /Users/dev_tomo/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190328-29256-1dis6vd.rb extconf.rb --with-ldflags\=-L/usr/local/opt/openssl/lib
+/Users/dev_tomo/.rbenv/versions/2.6.1/bin/ruby -I /Users/dev_tomo/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190329-1199-14uiv3n.rb extconf.rb --with-ldflags\=-L/usr/local/opt/openssl/lib
 checking for rb_absint_size()... yes
 checking for rb_absint_singlebit_p()... yes
 checking for rb_wait_for_single_fd()... yes
@@ -41,4 +41,4 @@ linking shared-object mysql2/mysql2.bundle
 
 current directory: /Users/dev_tomo/wsp_ruby/cybook/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.2/ext/mysql2
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20190328-29256-i79583/mysql2
+/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20190329-1199-1a1flqs/mysql2
