@@ -1,4 +1,4 @@
-<h3>＜ルートブック＞</h3>
+<h3>＜コメントのページ＞</h3>
 <hr>
 
 <!-- ------------------	メニュー	------------------ -->
@@ -34,31 +34,6 @@
 
 
 
-<% @routes.each do |route| %>
-	<p>タイトル：<%= route.title %></p>
-	<p>地　　域：<%= route.location %></p>
-	<p>ルート地図：<%= route.map %></p>
-	<p>距　　離：<%= route.distance %> km</p>
-	<p>ユーザ：<%= route.user.nickname %></p>
-	<hr>
-<% end %>
-
-<%= paginate @routes %>
-
 <div id="result">ああああ</div>
 
-
-
-<%= link_to 'コメント', comments_path %>
-
-
-
-
-
-
-
-
-
-
-
-
+<div id="map_canvas" style="width: 200px; height: 300px"></div>

@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 	root "routes#index"
 	
 	resources :routes
+	resources :comments
+	
 	resources :users
   
 end
