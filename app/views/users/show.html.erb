@@ -1,7 +1,8 @@
 <h4>＜ユーザ： <%= @nickname %>　のページ＞</h4>
 
-<div><%= image_tag  current_user.image, :size =>'70x90' %></div>
-
+<% if user_signed_in? %>
+	<div><%= image_tag current_user.image, :size =>'70x90' %></div>
+<% end %>
 
 	<hr>
 
